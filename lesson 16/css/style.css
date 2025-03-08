@@ -1,0 +1,46 @@
+div.gallery{
+    margin: 2px;
+border: 1px solid rgb(163, 202, 163);
+float: left; 
+}
+div.galler:hover{
+    border: 4px solid #777;
+}
+div.gallery img{
+width: 100%;
+height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-emphasis: center;
+}
+   
+    a[href="https://shkolladigjitale.com"]{
+        color: aqua;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p[class*="ds"]{
+        background-color: aquamarine;
+        color: white;
+        padding: 20px;
+    }
+    div[id~="ds"]{
+        background-color: aquamarine;
+        color: white;
+        padding: 20px;
+    }
+    div[title^="blue"]{
+       border: tomato;
+        box-shadow: 7px #111;
+    }
+h1[class|=heading]{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+
+}
+input[placeholder$="name"]{
+    border: 2px solid salmon;
+
+}
