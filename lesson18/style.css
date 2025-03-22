@@ -1,0 +1,39 @@
+/*zoom in*/
+
+#moon1 img{
+  transition : scale(1);
+    transition: .5s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+}
+#moon1:hover img{
+   transition : scale(1.5);
+}
+
+/*slide*/
+
+#moon2 img{
+    transform:(1) ;
+    transition: 0.5s ease-out;
+
+}
+#moon2:hover img{
+    margin-left: 50px;
+}
+/*blur*/
+#saturn img{
+   filter: blur(4px);
+    transition: 0.5s ease-out;
+
+}
+#saturn:hover img{
+   filter: blur(0);
+}
+/*gray*/
+#earth img{
+    filter: grayscale(100%);
+     transition: 0.5s ease-out;
+ 
+ }
+ #earth:hover img{
+    filter: grayscale(0);
+ }
